@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search</title>
+    <title>Images</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <ul class="navbar">
-            <li><a href="images.html">Images</a></li>
-            <li><a href="advanced.html">Advanced</a></li>
+            <li><a href="index.html">Back to Search</a></li>
         </ul>
     </nav>
     <main class="vertical-center">
         <h1>shootle</h1>
         <form action="https://google.com/search">
-            <input type="text" name="q" class="searchbar" placeholder="Search...">
-            <button type="submit" class="searchbutton">Google Search</button>
-            <button type="submit" name="btnI" class="searchbutton">I'm Feeling Lucky</button>
+            <input type="text" name="q" class="searchbar" placeholder="Search images...">
+            <input type="hidden" name="tbm" value="isch">
+            <button type="submit" class="searchbutton">Image Search</button>
         </form>
     </main>
 </body>
